@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const headers = {
-    'Authorization': `Bearer ${process.env.NEXT_APP_API_KEY}`
+    'Authorization': `Bearer ${process.env.NEXT_APP_BEARER_TOKEN}`
 }
 
 export default async function handler (req, res) 
