@@ -1,9 +1,8 @@
 import axios from 'axios'
 
 const headers = {
-    'Authorization': `Bearer ${process.env.NEXT_APP_BEARER_TOKEN}`
+    'Authorization': `Bearer AAAAAAAAAAAAAAAAAAAAAIx5fAEAAAAAvjA9RU4SHpHD2ldpv4wKAHkc5iE%3DHNKcNTXCpQFn4a3euPWLdrLC0VTIZKSR1fnIc3r4TvLEx4FKdW`
 }
-
 export default async function handler (req, res) 
 {
 	const id = req.query.id
